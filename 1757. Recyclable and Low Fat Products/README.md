@@ -56,11 +56,5 @@ Return the `product_id` of all products where:
 Only products **1** and **3** satisfy both conditions.
 
 ---
-
-## 💡 SQL Solution
-
-```sql
-SELECT product_id
-FROM Products
-WHERE low_fats = 'Y'
-  AND recyclable = 'Y';
+## 🔗 Reference
+- [LeetCode Problem 1757](https://leetcode.com/problems/recyclable-and-low-fat-products/)
